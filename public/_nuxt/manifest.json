@@ -1,0 +1,374 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-cf157129.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "components/mycom/hook.tsx",
+      "components/details/wapper.tsx",
+      "components/watching/wrapper.tsx",
+      "components/header/header.tsx",
+      "components/footer/footer.tsx",
+      "components/blog/details.tsx",
+      "components/account/breadcrumb.tsx",
+      "components/blog/index.tsx",
+      "components/hero/hero.tsx",
+      "components/product/product.tsx",
+      "components/account/login.tsx",
+      "components/account/signup.tsx",
+      "pages/about.vue",
+      "pages/anime-details.vue",
+      "pages/anime-watching.vue",
+      "pages/blog-details.vue",
+      "pages/blog.vue",
+      "pages/index.vue",
+      "pages/login.vue",
+      "pages/signup.vue",
+      "layouts/base.vue",
+      "layouts/login.vue"
+    ],
+    "css": [
+      "entry.cde02adb.css"
+    ]
+  },
+  "pages/about.vue": {
+    "file": "about-04f881ce.mjs",
+    "src": "pages/about.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/mycom/hook.tsx"
+    ]
+  },
+  "pages/anime-details.vue": {
+    "file": "anime-details-ffac75e9.mjs",
+    "src": "pages/anime-details.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/details/wapper.tsx"
+    ]
+  },
+  "pages/anime-watching.vue": {
+    "file": "anime-watching-b1748d99.mjs",
+    "src": "pages/anime-watching.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/watching/wrapper.tsx"
+    ]
+  },
+  "pages/blog-details.vue": {
+    "file": "blog-details-82b7e5da.mjs",
+    "src": "pages/blog-details.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/header/header.tsx",
+      "components/footer/footer.tsx",
+      "components/blog/details.tsx"
+    ]
+  },
+  "pages/blog.vue": {
+    "file": "blog-98a2197e.mjs",
+    "src": "pages/blog.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/header/header.tsx",
+      "components/footer/footer.tsx",
+      "components/account/breadcrumb.tsx",
+      "components/blog/index.tsx"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-a1f4dda2.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/hero/hero.tsx",
+      "components/product/product.tsx"
+    ]
+  },
+  "pages/login.vue": {
+    "file": "login-09fd7dc3.mjs",
+    "src": "pages/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/account/login.tsx"
+    ]
+  },
+  "pages/signup.vue": {
+    "file": "signup-39d94b7e.mjs",
+    "src": "pages/signup.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/account/signup.tsx"
+    ]
+  },
+  "layouts/base.vue": {
+    "file": "base-a5d39d73.mjs",
+    "src": "layouts/base.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/header/header.tsx",
+      "components/footer/footer.tsx",
+      "components/breadcrumb/breadcrumb.tsx"
+    ],
+    "css": [
+      "base.aa8af2b0.css"
+    ]
+  },
+  "layouts/login.vue": {
+    "file": "login-df03d913.mjs",
+    "src": "layouts/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/header/header.tsx",
+      "components/footer/footer.tsx",
+      "components/account/breadcrumb.tsx"
+    ],
+    "css": [
+      "login.3cd88d13.css"
+    ]
+  },
+  "components/mycom/hook.tsx": {
+    "file": "hook-64198010.mjs",
+    "src": "components/mycom/hook.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "hook.932f9524.css"
+    ]
+  },
+  "components/details/wapper.tsx": {
+    "file": "wapper-333ac493.mjs",
+    "src": "components/details/wapper.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_details.module-7a97fd65.mjs"
+    ],
+    "dynamicImports": [
+      "components/details/info.tsx",
+      "components/details/review.tsx",
+      "components/sidebar/sidebar.tsx"
+    ]
+  },
+  "_details.module-7a97fd65.mjs": {
+    "file": "details.module-7a97fd65.mjs",
+    "css": [
+      "details.module.95cd0708.css"
+    ]
+  },
+  "components/watching/wrapper.tsx": {
+    "file": "wrapper-ef396bfc.mjs",
+    "src": "components/watching/wrapper.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/details/review.tsx",
+      "components/sidebar/sidebar.tsx"
+    ],
+    "css": [
+      "wrapper.c2e90a53.css"
+    ]
+  },
+  "components/header/header.tsx": {
+    "file": "header-36d352e1.mjs",
+    "src": "components/header/header.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "header.5a9f4c47.css"
+    ]
+  },
+  "components/footer/footer.tsx": {
+    "file": "footer-7408fe08.mjs",
+    "src": "components/footer/footer.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "footer.31d171b8.css"
+    ]
+  },
+  "components/blog/details.tsx": {
+    "file": "details-484b87f9.mjs",
+    "src": "components/blog/details.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "details.7bcef812.css"
+    ]
+  },
+  "components/account/breadcrumb.tsx": {
+    "file": "breadcrumb-9bda1287.mjs",
+    "src": "components/account/breadcrumb.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "breadcrumb.d7acab05.css"
+    ]
+  },
+  "components/blog/index.tsx": {
+    "file": "index-dac2a7d9.mjs",
+    "src": "components/blog/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "index.ccdfe0ed.css"
+    ]
+  },
+  "components/hero/hero.tsx": {
+    "file": "hero-036c1190.mjs",
+    "src": "components/hero/hero.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "hero.e9c2778a.css"
+    ]
+  },
+  "components/product/product.tsx": {
+    "file": "product-5f7b20dd.mjs",
+    "src": "components/product/product.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "components/pagination/pagination.tsx",
+      "components/sidebar/sidebar.tsx",
+      "components/sidebar/view.tsx"
+    ],
+    "css": [
+      "product.04e4e438.css"
+    ]
+  },
+  "components/account/login.tsx": {
+    "file": "login-f1258c04.mjs",
+    "src": "components/account/login.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "login.94182ae2.css"
+    ]
+  },
+  "components/account/signup.tsx": {
+    "file": "signup-bc26ebcb.mjs",
+    "src": "components/account/signup.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "signup.43074213.css"
+    ]
+  },
+  "components/breadcrumb/breadcrumb.tsx": {
+    "file": "breadcrumb-ef78cb9d.mjs",
+    "src": "components/breadcrumb/breadcrumb.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "breadcrumb.d7acab05.css"
+    ]
+  },
+  "components/details/info.tsx": {
+    "file": "info-77edd06e.mjs",
+    "src": "components/details/info.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_details.module-7a97fd65.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "components/details/review.tsx": {
+    "file": "review-2734f2c6.mjs",
+    "src": "components/details/review.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_details.module-7a97fd65.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "components/sidebar/sidebar.tsx": {
+    "file": "sidebar-9edca6c9.mjs",
+    "src": "components/sidebar/sidebar.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sidebar.module-69256e31.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_sidebar.module-69256e31.mjs": {
+    "file": "sidebar.module-69256e31.mjs",
+    "css": [
+      "sidebar.module.fadd615a.css"
+    ]
+  },
+  "components/pagination/pagination.tsx": {
+    "file": "pagination-aacd394b.mjs",
+    "src": "components/pagination/pagination.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "pagination.190ca005.css"
+    ]
+  },
+  "components/sidebar/view.tsx": {
+    "file": "view-a7dd220f.mjs",
+    "src": "components/sidebar/view.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sidebar.module-69256e31.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+}

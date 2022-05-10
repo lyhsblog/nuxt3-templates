@@ -1,0 +1,1 @@
+import{d as o,j as t,g as e,h as a}from"./entry-cf157129.mjs";const r="_box_2t3ak_1";var s={box:r};const n=e("h1",{class:[s.box]},[e("div",null,[a("fff")])]);var f=o({render:()=>t(n)});export{f as default};
